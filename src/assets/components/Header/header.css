@@ -64,4 +64,9 @@ li img {
 .header_left{
     margin: 30px;
 }
+@media screen and (max-width:580px){
+.header_left ul li:not(:first-child){
+    display: none;
+}
+}
 

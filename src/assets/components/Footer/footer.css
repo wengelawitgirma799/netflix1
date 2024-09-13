@@ -55,8 +55,15 @@ margin-right: 20px;
 
 
 }
-.copy{
+.Copy{
     font-size: 12px;
     margin-bottom: 10px;
 
 }
+@media screen and (max-width:580px){
+    .footer-data{display: flex;
+        flex-direction: column;
+
+    }
+    .service,.Copy{display: none;}
+    }
